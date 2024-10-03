@@ -1,7 +1,7 @@
 package basicSorting.bubbleSort;
 
 import java.util.Arrays;
-
+//Stable Sort
 //TC = O(n^2)
 //SC = O(1)
 public class BubbleSort {
