@@ -8,7 +8,7 @@ package basicSorting.bubbleSort;
 import java.util.Arrays;
 
 public class MoveZeroes {
-	
+	//Approach
 	public static void moveZeroes(int[] nums) {
         int noz = 0;
         for(int ele : nums){
