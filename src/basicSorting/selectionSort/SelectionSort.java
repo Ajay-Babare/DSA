@@ -3,10 +3,21 @@
 //SC = O(1)
 package basicSorting.selectionSort;
 
-import java.util.Arrays;
-
 public class SelectionSort {
-
+	
+	public static void printArray(int[] arr) {
+		for(int ele: arr) {
+			System.out.print(ele+" ");
+		}
+		System.out.println();
+	}
+	
+	public static void swap(int [] arr, int a, int b) {
+		int temp = arr[a];
+		arr[a] = arr[b];
+		arr[b] = temp;
+	}
+	
 	public static void selectionSort(int[] arr) {
 		int n = arr.length;
 		//Selection Sort
@@ -19,15 +30,15 @@ public class SelectionSort {
 					mindex=j;
 				}
 			}
-			int temp = arr[mindex];
-			arr[mindex] = arr[i];
-			arr[i] = temp;
+			swap(arr,mindex,i);
 		}
 	}
 	public static void main(String[] args) {
 		int [] arr = {2,3,8,1,4,5};
-		System.out.println("Before Sort: "+Arrays.toString(arr));
+		System.out.println("Before Sort: ");
+		printArray(arr);
 		selectionSort(arr);
-		System.out.println("After Sort: "+Arrays.toString(arr));
+		System.out.println("After Sort: ");
+		printArray(arr);
 	}
 }
