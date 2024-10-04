@@ -25,22 +25,22 @@ public class InsertionSort {
 		//Insertion Sort
 		
 //Approach1
-		for (int i=1; i<n;i++) {
-			for(int j=i;j>=1;j--) {
-				if(arr[j]<arr[j-1]) {
-					swap(arr,j,j-1);
-				}else {
-					break;
-				}
-			}
-		}
+//		for (int i=1; i<n;i++) {
+//			for(int j=i;j>=1;j--) {
+//				if(arr[j]<arr[j-1]) {
+//					swap(arr,j,j-1);
+//				}else {
+//					break;
+//				}
+//			}
+//		}
 		
 //Approach2		
-		for (int i=1; i<n;i++) {
-			for(int j=i;j>=1 && arr[j]<arr[j-1];j--) {
-					swap(arr,j,j-1);
-			}
-		}
+//		for (int i=1; i<n;i++) {
+//			for(int j=i;j>=1 && arr[j]<arr[j-1];j--) {
+//					swap(arr,j,j-1);
+//			}
+//		}
 	
 //Approach3
 	for (int i=1; i<n;i++) {
