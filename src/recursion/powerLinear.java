@@ -1,6 +1,6 @@
 package recursion;
 
-public class powerLinear {
+public class PowerLinear {
 	public static int pow(int a, int b) {
 		//base case
 		if(b==0)

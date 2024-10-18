@@ -1,6 +1,6 @@
 package recursion;
 
-public class sumReturnType {
+public class SumReturnType {
 
 	public static int sum(int n) {
 		//Base Case
