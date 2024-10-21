@@ -142,6 +142,8 @@ public class LinkedListImplementation {
 		ll.display();
 		ll.delete(2);
 		ll.display();
+		ll.set(3, 22);
+		ll.display();
 	}
 
 }
