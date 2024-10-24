@@ -115,7 +115,7 @@ class SLL{
 		System.out.println("Size : "+size);
 	}
 }
-public class LinkedListImplementation {
+public class SinglyLinkedListImplementation {
 
 	public static void main(String[] args) {
 		SLL ll = new SLL();
