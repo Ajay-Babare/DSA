@@ -2,7 +2,7 @@ package stack;
 
 import java.util.Stack;
 
-public class StackBasics {
+public class StackBasics {	
 	public static void RecDisplay(Stack<Integer> st) {
 		if(st.isEmpty()) return;
 		int top=st.pop();
@@ -27,7 +27,7 @@ public class StackBasics {
          
          //ReverseStack
          Stack<Integer> stReverse = new Stack<>();
-         while(!st.isEmpty()) {
+         while(st.size()>0) {
         	 stReverse.push(st.pop());
          }
          System.out.println(stReverse);
