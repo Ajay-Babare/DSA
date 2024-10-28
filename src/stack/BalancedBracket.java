@@ -27,6 +27,7 @@ public class BalancedBracket {
 		System.out.println("Enter Input ");
 		String str = sc.nextLine();
 		System.out.println(isBalanced(str));
+		sc.close();
 	}
 
 
