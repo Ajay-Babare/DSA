@@ -1,4 +1,4 @@
-package heap;
+package heaps;
 
 import java.util.HashMap;
 import java.util.PriorityQueue;

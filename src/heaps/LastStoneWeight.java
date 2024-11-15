@@ -5,7 +5,7 @@
 //If x != y, the stone of weight x is destroyed, and the stone of weight y has new weight y - x.
 //At the end of the game, there is at most one stone left.
 //Return the weight of the last remaining stone. If there are no stones left, return 0.
-package heap;
+package heaps;
 
 import java.util.Collections;
 import java.util.PriorityQueue;

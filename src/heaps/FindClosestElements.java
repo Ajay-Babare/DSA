@@ -3,7 +3,7 @@
 //An integer a is closer to x than an integer b if:
 //|a - x| < |b - x|, or
 //|a - x| == |b - x| and a < b
-package heap;
+package heaps;
 
 import java.util.ArrayList;
 import java.util.Collections;
