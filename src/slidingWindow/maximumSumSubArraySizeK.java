@@ -1,6 +1,6 @@
 package slidingWindow;
 
-public class maximumSumSubArraySizeK {
+public class MaximumSumSubArraySizeK {
 
 	public static void main(String[] args) {
 		int arr[] = {10,20,1,3,-40,80,10};
